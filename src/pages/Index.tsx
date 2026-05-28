@@ -395,8 +395,7 @@ export default function Index() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { icon: "Phone", title: "Телефон", value: "+7 (978) 745-87-76", sub: "+7 (978) 332-13-36", href: "tel:+79787458776" },
-              { icon: "MapPin", title: "Адрес", value: "ул. Примерная, д. 1", sub: "Офис работает 24/7", href: "#" },
-              { icon: "Mail", title: "Email", value: "info@avarservice.ru", sub: "Ответим в течение часа", href: "mailto:info@avarservice.ru" },
+              { icon: "Mail", title: "Email", value: "medvedkompani@gmail.com", sub: "Ответим в течение часа", href: "mailto:medvedkompani@gmail.com" },
             ].map((c) => (
               <a
                 key={c.title}
