@@ -179,8 +179,7 @@ export default function Index() {
             </h1>
 
             <p className="text-gray-300 text-lg md:text-xl font-light leading-relaxed mb-8 max-w-lg">
-              Профессиональная помощь при авариях. Выезд специалиста через{" "}
-              <strong className="text-white">15 минут</strong>. Гарантия качества работ.
+              Профессиональная помощь при авариях. Быстрый выезд специалиста. Гарантия качества работ.
             </p>
 
             <div className="flex flex-wrap gap-4">
