@@ -92,7 +92,7 @@ export default function Index() {
               <Icon name="AlertTriangle" size={16} className="text-white" />
             </div>
             <span className="font-oswald text-xl font-bold tracking-wider text-white">
-              АВАР<span className="text-red-500">СЕРВИС</span>
+              МЕД<span className="text-red-500">ВЕДЬ</span>
             </span>
           </button>
 
@@ -411,10 +411,10 @@ export default function Index() {
               <Icon name="AlertTriangle" size={12} className="text-white" />
             </div>
             <span className="font-oswald text-gray-400 tracking-wider">
-              АВАР<span className="text-red-500">СЕРВИС</span>
+              МЕД<span className="text-red-500">ВЕДЬ</span>
             </span>
           </div>
-          <p className="text-gray-600 text-xs">© 2024 АварСервис. Все права защищены.</p>
+          <p className="text-gray-600 text-xs">© 2024 Медведь. Все права защищены.</p>
           <a href="tel:+78005550000" className="font-oswald text-red-400 hover:text-red-300 tracking-wider text-sm transition-colors">
             +7 (800) 555-00-00
           </a>
