@@ -198,9 +198,8 @@ export default function Index() {
               </a>
             </div>
 
-            <div className="mt-12 grid grid-cols-3 gap-6 max-w-md">
+            <div className="mt-12 grid grid-cols-2 gap-6 max-w-md">
               {[
-                { num: "15 мин", label: "Время выезда" },
                 { num: "5 000+", label: "Выполнено заявок" },
                 { num: "100%", label: "Гарантия" },
               ].map((stat) => (
