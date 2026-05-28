@@ -112,11 +112,11 @@ export default function Index() {
 
           <div className="flex items-center gap-3">
             <a
-              href="tel:+78005550000"
+              href="tel:+79787458776"
               className="hidden md:flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-oswald text-sm px-4 py-2 rounded transition-colors tracking-wider"
             >
               <Icon name="Phone" size={14} />
-              +7 (800) 555-00-00
+              +7 (978) 745-87-76
             </a>
             <button className="md:hidden text-white" onClick={() => setMenuOpen(!menuOpen)}>
               <Icon name={menuOpen ? "X" : "Menu"} size={24} />
@@ -136,11 +136,18 @@ export default function Index() {
               </button>
             ))}
             <a
-              href="tel:+78005550000"
+              href="tel:+79787458776"
               className="flex items-center gap-2 bg-red-600 text-white font-oswald text-sm px-4 py-2 rounded w-fit tracking-wider"
             >
               <Icon name="Phone" size={14} />
-              +7 (800) 555-00-00
+              +7 (978) 745-87-76
+            </a>
+            <a
+              href="tel:+79783321336"
+              className="flex items-center gap-2 border border-red-600 text-red-400 font-oswald text-sm px-4 py-2 rounded w-fit tracking-wider"
+            >
+              <Icon name="Phone" size={14} />
+              +7 (978) 332-13-36
             </a>
           </div>
         )}
@@ -183,7 +190,7 @@ export default function Index() {
                 Оставить заявку
               </button>
               <a
-                href="tel:+78005550000"
+                href="tel:+79787458776"
                 className="border border-white/30 hover:border-white text-white font-oswald px-8 py-4 text-lg tracking-widest uppercase transition-all hover:bg-white/10 rounded flex items-center gap-2"
               >
                 <Icon name="Phone" size={18} />
@@ -266,11 +273,18 @@ export default function Index() {
                 Мы работаем круглосуточно, 365 дней в году. Аварии не ждут — и мы не заставляем вас ждать.
               </p>
               <a
-                href="tel:+78005550000"
+                href="tel:+79787458776"
                 className="mt-6 flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-oswald px-6 py-3 rounded tracking-wider transition-colors w-full"
               >
                 <Icon name="Phone" size={16} />
-                Позвонить прямо сейчас
+                +7 (978) 745-87-76
+              </a>
+              <a
+                href="tel:+79783321336"
+                className="mt-3 flex items-center justify-center gap-2 border border-red-600/50 hover:border-red-600 text-red-400 font-oswald px-6 py-3 rounded tracking-wider transition-colors w-full"
+              >
+                <Icon name="Phone" size={16} />
+                +7 (978) 332-13-36
               </a>
             </div>
           </div>
@@ -380,7 +394,7 @@ export default function Index() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: "Phone", title: "Телефон", value: "+7 (800) 555-00-00", sub: "Бесплатно по России", href: "tel:+78005550000" },
+              { icon: "Phone", title: "Телефон", value: "+7 (978) 745-87-76", sub: "+7 (978) 332-13-36", href: "tel:+79787458776" },
               { icon: "MapPin", title: "Адрес", value: "ул. Примерная, д. 1", sub: "Офис работает 24/7", href: "#" },
               { icon: "Mail", title: "Email", value: "info@avarservice.ru", sub: "Ответим в течение часа", href: "mailto:info@avarservice.ru" },
             ].map((c) => (
@@ -415,8 +429,8 @@ export default function Index() {
             </span>
           </div>
           <p className="text-gray-600 text-xs">© 2024 Медведь. Все права защищены.</p>
-          <a href="tel:+78005550000" className="font-oswald text-red-400 hover:text-red-300 tracking-wider text-sm transition-colors">
-            +7 (800) 555-00-00
+          <a href="tel:+79787458776" className="font-oswald text-red-400 hover:text-red-300 tracking-wider text-sm transition-colors">
+            +7 (978) 745-87-76
           </a>
         </div>
       </footer>
